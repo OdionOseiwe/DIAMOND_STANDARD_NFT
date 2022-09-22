@@ -7,7 +7,7 @@ import "./ERC165.sol";
 
 contract ERC721 is IERC165, IERC721, ERC165{
     // Token name
-    Appstorage.libstorage   s = Appstorage.appStorage(); 
+    Appstorage.libstorage   s ; 
     
     /**
      * @dev Initializes the contract by setting a `name` and a `symbol` to the token collection.

@@ -16,7 +16,7 @@ import {Appstorage} from  './storage/lib.sol';
 
 contract Diamond {  
 
-    Appstorage.libstorage s;  
+    Appstorage.libstorage   s ; 
 
     constructor(address _contractOwner, address _diamondCutFacet, string memory name, string memory symbol) payable {        
         LibDiamond.setContractOwner(_contractOwner);
